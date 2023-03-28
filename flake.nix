@@ -8,7 +8,12 @@
 
   outputs = inputs @ {flake-parts, ...}:
     flake-parts.lib.mkFlake {inherit inputs;} {
-      systems = ["x86_64-linux" "aarch64-darwin"];
+      systems = [
+          "aarch64-darwin"
+          "aarch64-linux"
+          "x86_64-darwin"
+          "x86_64-linux"
+      ];
       perSystem = {
         config,
         self',
@@ -17,6 +22,11 @@
         system,
         ...
       }: let
+        pkgs = import inputs.nixpkgs {
+          overlays = [ inputs.typst.overlays.default ];
+          inherit system;
+        };
+
         typst = let
           fontsConf = pkgs.symlinkJoin {
             name = "typst-fonts";
@@ -26,6 +36,7 @@
               pkgs.lmodern
               pkgs.garamond-libre
               pkgs.fira
+              pkgs.liberation_ttf
               ./fonts
             ];
           };
@@ -33,7 +44,7 @@
           pkgs.writeShellApplication {
             name = "typst";
             text = ''
-              ${inputs.typst.packages.${system}.default}/bin/typst \
+              ${pkgs.typst-dev}/bin/typst \
               --font-path ${fontsConf} \
               "$@"
             '';
