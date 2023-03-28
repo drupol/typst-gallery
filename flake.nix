@@ -9,10 +9,10 @@
   outputs = inputs @ {flake-parts, ...}:
     flake-parts.lib.mkFlake {inherit inputs;} {
       systems = [
-          "aarch64-darwin"
-          "aarch64-linux"
-          "x86_64-darwin"
-          "x86_64-linux"
+        "aarch64-darwin"
+        "aarch64-linux"
+        "x86_64-darwin"
+        "x86_64-linux"
       ];
       perSystem = {
         config,
@@ -23,7 +23,7 @@
         ...
       }: let
         pkgs = import inputs.nixpkgs {
-          overlays = [ inputs.typst.overlays.default ];
+          overlays = [inputs.typst.overlays.default];
           inherit system;
         };
 
