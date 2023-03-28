@@ -4,6 +4,10 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     typst.url = "github:typst/typst";
+    flake-compat = {
+      url = "github:edolstra/flake-compat";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -20,6 +24,7 @@
         inputs',
         pkgs,
         system,
+        lib,
         ...
       }: let
         pkgs = import inputs.nixpkgs {
@@ -37,6 +42,7 @@
               pkgs.garamond-libre
               pkgs.fira
               pkgs.liberation_ttf
+              pkgs.texlive.newcomputermodern.pkgs
               ./fonts
             ];
           };
@@ -51,57 +57,76 @@
             runtimeInputs = [];
           };
 
-        typst-document = pkgs.stdenvNoCC.mkDerivation {
-          name = "typst-document";
+        documents = lib.attrNames (lib.filterAttrs (name: type: type == "directory") (builtins.readDir ./src));
 
-          src = pkgs.lib.cleanSource ./.;
+        typst-documents =
+          lib.genAttrs
+          documents
+          (
+            document:
+              pkgs.stdenvNoCC.mkDerivation {
+                name = "typst-${document}";
 
-          buildPhase = ''
-            runHook preBuild
+                src = pkgs.lib.cleanSource ./.;
 
-            ${typst}/bin/typst \
-              --root $src/src/ \
-              $src/src/main.typ \
-              document.pdf
+                buildPhase = ''
+                  runHook preBuild
 
-            runHook postBuild
-          '';
+                  ${typst}/bin/typst \
+                    --root $src/src/${document}/ \
+                    $src/src/${document}/main.typ \
+                    ${document}.pdf
 
-          installPhase = ''
-            runHook preInstall
-            install -m644 -D *.pdf --target $out/
-            runHook postInstall
-          '';
-        };
+                  runHook postBuild
+                '';
 
-        watch-typst-document = pkgs.writeShellApplication {
-          name = "watch-typst-document";
-          text = ''
-            ${typst}/bin/typst \
-              --root src/ \
-              -w \
-              src/main.typ \
-              build/document.pdf
-          '';
-        };
+                installPhase = ''
+                  runHook preInstall
+                  install -m644 -D *.pdf --target $out/
+                  runHook postInstall
+                '';
+              }
+          );
+
+        watch-typst-documents-list =
+          map
+          (
+            document:
+              pkgs.writeShellApplication {
+                name = "watch-typst-${document}";
+                text = ''
+                  ${typst}/bin/typst \
+                    --root src/ \
+                    -w \
+                    src/${document}/main.typ \
+                    build/${document}.pdf
+                '';
+              }
+          )
+          documents;
       in {
         formatter = pkgs.alejandra;
 
-        apps.watch = {
-          type = "app";
-          program = watch-typst-document;
-        };
+        apps = builtins.listToAttrs (map (document: {
+            name = document.name;
+            value = {
+              type = "app";
+              program = document;
+            };
+          })
+          watch-typst-documents-list);
 
-        packages.default = typst-document;
+        packages = typst-documents;
 
         # Nix develop
         devShells.default = pkgs.mkShellNoCC {
           name = "typst-devshell";
 
-          buildInputs = [
-            typst
-            watch-typst-document
-          ];
+          buildInputs =
+            [
+              typst
+            ]
+            ++ watch-typst-documents-list;
         };
       };
     };

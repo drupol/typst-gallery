@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673956053,
+        "narHash": "sha256-4gtG9iQuiKITOjNQQeQIpoIB6b16fm+504Ch3sNKLd8=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "35bb57c0c8d8b62bbfd284272c928ceb64ddbde9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
     "flake-parts": {
       "inputs": {
         "nixpkgs-lib": "nixpkgs-lib"
@@ -69,6 +85,7 @@
     },
     "root": {
       "inputs": {
+        "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
         "typst": "typst"
@@ -79,11 +96,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1679950461,
-        "narHash": "sha256-8oVhvOfHdXvZwE7wAxbt05laXm65EXWIZYWKQYw2w9I=",
+        "lastModified": 1679996186,
+        "narHash": "sha256-B9nIcqF7WlSHrva7/3bRfjKKr4dFbPhaIwvQFYu6hiI=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "862d3b7684f170a85082b511bcc30f9d600b4f50",
+        "rev": "a0249d230961c9ccbcc37dea61357f0ea56961cc",
         "type": "github"
       },
       "original": {

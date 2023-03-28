@@ -21,23 +21,7 @@
 ) = {
   // Configure page and text properties.
   set page(margin: (top: 2cm))
-  set text(font: "Inconsolata")
-  set text(10pt)
-
-  let cell = rect.with(
-    fill: rgb("ffffff"),
-  )
-  grid(
-    columns: (120pt, 1fr),
-    rows: (60pt, auto),
-    cell(height: 100%)[#image("logo-w3c.svg")],
-    cell(height: 100%)[
-      Line 1 \
-      Line 2 \
-      Line 3 \
-      Line 4
-    ],
-  )
+  set text(font: "PT Sans")
 
   // Display sender at top of page. If there's no sender
   // add some hidden text to keep the same spacing.
