@@ -1,5 +1,7 @@
 # Typst document
 
+This project will build the default [Typst][typst] templates from https://github.com/typst/templates using [Nix][nix].
+
 ## Usage
 
 1. Clone the repository
@@ -9,25 +11,39 @@ git clone https://github.com/drupol/typst-document
 cd typst-document
 ```
 
-2. Modify the `src/main.typ` file
-
-3. Build the document
+2. Build example templates
 
 ```shell
-nix build
-open result/document.pdf
+nix build .#ams
+nix build .#dept-news
+nix build .#fiction
+nix build .#ieee
+nix build .#letter
+
+open result/ams.pdf
+open result/dept-news.pdf
+open result/fiction.pdf
+open result/ieee.pdf
+open result/letter.pdf
 ```
 
-4. Watch the document and build incrementaly
+3. Watch the document and recompile on changes
 
 ```shell
-nix run .#watch
+nix run .#watch-typst-ams
+nix run .#watch-typst-dept-news
+nix run .#watch-typst-fiction
+nix run .#watch-typst-ieee
+nix run .#watch-typst-letter
 ```
 
-Then open the resulting document with your favorite viewer: `open build/document.pdf`
+Then open the resulting PDF file in the `build` directory with your favorite viewer.
 
 ## Font management
 
-Add your custom font in the `fonts/` directory.
+Add custom fonts in the `fonts/` directory.
 
-To check what are the available fonts, run `nix develop` then run `typst --fonts`
+To check what are the available fonts, execute `nix develop` then run `typst --fonts`
+
+[typst]: https://typst.app/
+[nix]: https://nixos.org/
