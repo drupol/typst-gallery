@@ -34,8 +34,7 @@ jobs:
         - id: set-matrix
           run: |
             echo "matrix=$(
-              nix eval --json --impure \
-                --expr 'builtins.filter (x: (null == builtins.match "(.*)-nts" x)) (builtins.attrNames (import ./.).packages.x86_64-linux)'
+              nix eval --json --impure --expr 'builtins.attrNames (import ./.).packages.x86_64-linux'
             )" >> $GITHUB_OUTPUT
 
     build:
