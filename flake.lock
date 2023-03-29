@@ -123,7 +123,8 @@
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
         "sahasatvik-typst-theorems": "sahasatvik-typst-theorems",
-        "typst": "typst"
+        "typst": "typst",
+        "typst-templates": "typst-templates"
       }
     },
     "sahasatvik-typst-theorems": {
@@ -157,6 +158,22 @@
       "original": {
         "owner": "typst",
         "repo": "typst",
+        "type": "github"
+      }
+    },
+    "typst-templates": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680005020,
+        "narHash": "sha256-jU97yI5r9XwQTvRlmfuPR85R2UrvLS2me/ukV8fv6MU=",
+        "owner": "typst",
+        "repo": "templates",
+        "rev": "7caa031bc6edaee879da679e56ce1c6473109974",
+        "type": "github"
+      },
+      "original": {
+        "owner": "typst",
+        "repo": "templates",
         "type": "github"
       }
     }

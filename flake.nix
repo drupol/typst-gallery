@@ -10,6 +10,11 @@
     };
 
     # External documents
+    typst-templates = {
+      url = "github:typst/templates";
+      flake = false;
+    };
+
     sahasatvik-typst-theorems = {
       url = "github:sahasatvik/typst-theorems";
       flake = false;
@@ -50,6 +55,26 @@
 
         typst-external-sources = [
           {
+            name = "typst-templates";
+            filename = "ams/main";
+          }
+          {
+            name = "typst-templates";
+            filename = "dept-news/main";
+          }
+          {
+            name = "typst-templates";
+            filename = "fiction/main";
+          }
+          {
+            name = "typst-templates";
+            filename = "ieee/main";
+          }
+          {
+            name = "typst-templates";
+            filename = "letter/main";
+          }
+          {
             name = "sahasatvik-typst-theorems";
             filename = "example";
           }
@@ -79,13 +104,6 @@
           fontsConf = pkgs.symlinkJoin {
             name = "typst-fonts";
             paths = [
-              pkgs.eb-garamond
-              pkgs.dejavu_fonts
-              pkgs.lmodern
-              pkgs.garamond-libre
-              pkgs.fira
-              pkgs.liberation_ttf
-              pkgs.texlive.newcomputermodern.pkgs
               ./fonts
             ];
           };
@@ -100,10 +118,10 @@
             runtimeInputs = [];
           };
 
-        typst-internal-sources = lib.attrNames (lib.filterAttrs (name: type: type == "directory") (builtins.readDir ./src));
-
-        typst-external-documents = builtins.listToAttrs (map (source: {
-            name = "${source.name}-${baseNameOf source.filename}";
+        typst-documents = builtins.listToAttrs (map (source: let
+            outputFilename = builtins.replaceStrings ["/"] ["-"] source.filename;
+          in {
+            name = "${source.name}-${outputFilename}";
             value = pkgs.stdenvNoCC.mkDerivation {
               name = "typst-${source.name}";
 
@@ -115,88 +133,31 @@
                 ${typst}/bin/typst \
                   --root $src/ \
                   $src/${source.filename}.typ \
-                  ${source.name}-${baseNameOf source.filename}.pdf
+                  ${source.name}-${outputFilename}.pdf
 
                 runHook postBuild
               '';
 
               installPhase = ''
                 runHook preInstall
-                install -m644 -D ${source.name}-${baseNameOf source.filename}.pdf --target $out/
+                install -m644 -D ${source.name}-${outputFilename}.pdf --target $out/
                 runHook postInstall
               '';
             };
           })
           typst-external-sources);
-
-        typst-internal-documents =
-          lib.genAttrs
-          typst-internal-sources
-          (
-            document:
-              pkgs.stdenvNoCC.mkDerivation {
-                name = "typst-${document}";
-
-                src = pkgs.lib.cleanSource ./.;
-
-                buildPhase = ''
-                  runHook preBuild
-
-                  ${typst}/bin/typst \
-                    --root $src/src/${document}/ \
-                    $src/src/${document}/main.typ \
-                    ${document}.pdf
-
-                  runHook postBuild
-                '';
-
-                installPhase = ''
-                  runHook preInstall
-                  install -m644 -D ${document}.pdf --target $out/
-                  runHook postInstall
-                '';
-              }
-          );
-
-        watch-typst-documents-list =
-          map
-          (
-            document:
-              pkgs.writeShellApplication {
-                name = "watch-typst-${document}";
-                text = ''
-                  ${typst}/bin/typst \
-                    --root src/ \
-                    -w \
-                    src/${document}/main.typ \
-                    build/${document}.pdf
-                '';
-              }
-          )
-          typst-internal-sources;
       in {
         formatter = pkgs.alejandra;
 
-        apps = builtins.listToAttrs (map (document: {
-            name = document.name;
-            value = {
-              type = "app";
-              program = document;
-            };
-          })
-          watch-typst-documents-list);
-
-        packages = typst-external-documents // typst-internal-documents;
+        packages = typst-documents;
 
         # Nix develop
         devShells.default = pkgs.mkShellNoCC {
           name = "typst-devshell";
 
-          buildInputs =
-            [
-              typst
-            ]
-            ++ watch-typst-documents-list;
+          buildInputs = [
+            typst
+          ];
         };
       };
     };
