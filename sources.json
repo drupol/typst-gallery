@@ -11,8 +11,9 @@
         {
             "name": "sahasatvik-typst-theorems",
             "documents": [
-                "example",
-                "differential_calculus"
+                "differential_calculus",
+                "manual",
+                "manual_examples"
             ]
         },
         {
