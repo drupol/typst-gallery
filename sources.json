@@ -48,6 +48,12 @@
             "documents": [
                 "physics-manual"
             ]
+        },
+        {
+            "name": "johannes-wolf-typst-plot",
+            "documents": [
+                "test-plot"
+            ]
         }
     ]
 }

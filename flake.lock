@@ -81,6 +81,22 @@
         "type": "indirect"
       }
     },
+    "johannes-wolf-typst-plot": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680107489,
+        "narHash": "sha256-AdPEIkwYA2sRUi0qc23Z6dpw0BIyAxHQTFp8BTbCY3U=",
+        "owner": "johannes-wolf",
+        "repo": "typst-plot",
+        "rev": "6a29da506c03060ea6f5fad678fe5e4d238652a7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "johannes-wolf",
+        "repo": "typst-plot",
+        "type": "github"
+      }
+    },
     "johanvx-typst-undergradmath": {
       "flake": false,
       "locked": {
@@ -154,6 +170,7 @@
         "andreasKroepelin-typst-slides": "andreasKroepelin-typst-slides",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
+        "johannes-wolf-typst-plot": "johannes-wolf-typst-plot",
         "johanvx-typst-undergradmath": "johanvx-typst-undergradmath",
         "nixpkgs": "nixpkgs",
         "sahasatvik-typst-theorems": "sahasatvik-typst-theorems",
@@ -164,11 +181,11 @@
     "sahasatvik-typst-theorems": {
       "flake": false,
       "locked": {
-        "lastModified": 1680095752,
-        "narHash": "sha256-vzty0hFdMJMcWnC1fHkOdLOTpBfPX2ZXb9Vh9tlYBsM=",
+        "lastModified": 1680108953,
+        "narHash": "sha256-hBweckCpo9pcYod0BP0Iq0DFfqL3hao32bhTcksJyqE=",
         "owner": "sahasatvik",
         "repo": "typst-theorems",
-        "rev": "0da692a879235457f0e12c968fcba274c00bf29c",
+        "rev": "b9192af72e917b073c1ceba766fd791e84757bf1",
         "type": "github"
       },
       "original": {
