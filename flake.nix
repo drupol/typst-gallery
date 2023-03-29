@@ -8,6 +8,12 @@
       url = "github:edolstra/flake-compat";
       flake = false;
     };
+
+    # External documents
+    sahasatvik-typst-theorems = {
+      url = "github:sahasatvik/typst-theorems";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -31,6 +37,17 @@
           overlays = [inputs.typst.overlays.default];
           inherit system;
         };
+
+        typst-external-sources = [
+          {
+            name = "sahasatvik-typst-theorems";
+            filename = "example";
+          }
+          {
+            name = "sahasatvik-typst-theorems";
+            filename = "differential_calculus";
+          }
+        ];
 
         typst = let
           fontsConf = pkgs.symlinkJoin {
@@ -57,11 +74,38 @@
             runtimeInputs = [];
           };
 
-        documents = lib.attrNames (lib.filterAttrs (name: type: type == "directory") (builtins.readDir ./src));
+        typst-internal-sources = lib.attrNames (lib.filterAttrs (name: type: type == "directory") (builtins.readDir ./src));
 
-        typst-documents =
+        typst-external-documents = builtins.listToAttrs (map (source: {
+            name = "${source.name}-${source.filename}";
+            value = pkgs.stdenvNoCC.mkDerivation {
+              name = "typst-${source.name}";
+
+              src = inputs."${source.name}";
+
+              buildPhase = ''
+                runHook preBuild
+
+                ${typst}/bin/typst \
+                  --root $src/ \
+                  $src/${source.filename}.typ \
+                  ${source.name}-${source.filename}.pdf
+
+                runHook postBuild
+              '';
+
+              installPhase = ''
+                runHook preInstall
+                install -m644 -D ${source.name}-${source.filename}.pdf --target $out/
+                runHook postInstall
+              '';
+            };
+          })
+          typst-external-sources);
+
+        typst-internal-documents =
           lib.genAttrs
-          documents
+          typst-internal-sources
           (
             document:
               pkgs.stdenvNoCC.mkDerivation {
@@ -82,7 +126,7 @@
 
                 installPhase = ''
                   runHook preInstall
-                  install -m644 -D *.pdf --target $out/
+                  install -m644 -D ${document}.pdf --target $out/
                   runHook postInstall
                 '';
               }
@@ -103,7 +147,7 @@
                 '';
               }
           )
-          documents;
+          typst-internal-sources;
       in {
         formatter = pkgs.alejandra;
 
@@ -116,7 +160,7 @@
           })
           watch-typst-documents-list);
 
-        packages = typst-documents;
+        packages = typst-external-documents // typst-internal-documents;
 
         # Nix develop
         devShells.default = pkgs.mkShellNoCC {
