@@ -19,6 +19,11 @@
       url = "github:GeorgeHoneywood/alta-typst";
       flake = false;
     };
+
+    andreasKroepelin-typst-slides = {
+      url = "github:andreasKroepelin/typst-slides";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -56,6 +61,18 @@
             name = "GeorgeHoneywood-alta-typst";
             filename = "example";
           }
+          {
+            name = "andreasKroepelin-typst-slides";
+            filename = "examples/simple";
+          }
+          {
+            name = "andreasKroepelin-typst-slides";
+            filename = "examples/doc";
+          }
+          {
+            name = "andreasKroepelin-typst-slides";
+            filename = "examples/gauss";
+          }
         ];
 
         typst = let
@@ -86,7 +103,7 @@
         typst-internal-sources = lib.attrNames (lib.filterAttrs (name: type: type == "directory") (builtins.readDir ./src));
 
         typst-external-documents = builtins.listToAttrs (map (source: {
-            name = "${source.name}-${source.filename}";
+            name = "${source.name}-${baseNameOf source.filename}";
             value = pkgs.stdenvNoCC.mkDerivation {
               name = "typst-${source.name}";
 
@@ -98,14 +115,14 @@
                 ${typst}/bin/typst \
                   --root $src/ \
                   $src/${source.filename}.typ \
-                  ${source.name}-${source.filename}.pdf
+                  ${source.name}-${baseNameOf source.filename}.pdf
 
                 runHook postBuild
               '';
 
               installPhase = ''
                 runHook preInstall
-                install -m644 -D ${source.name}-${source.filename}.pdf --target $out/
+                install -m644 -D ${source.name}-${baseNameOf source.filename}.pdf --target $out/
                 runHook postInstall
               '';
             };

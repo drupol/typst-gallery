@@ -16,6 +16,22 @@
         "type": "github"
       }
     },
+    "andreasKroepelin-typst-slides": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680018752,
+        "narHash": "sha256-M27fMKV6QJZpRybL7/AFy5x4z57yr57g7XMWtzK6DVk=",
+        "owner": "andreasKroepelin",
+        "repo": "typst-slides",
+        "rev": "3089fb3cc4bd76bbc42ffe957196b463b4e2f8a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andreasKroepelin",
+        "repo": "typst-slides",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -102,6 +118,7 @@
     "root": {
       "inputs": {
         "GeorgeHoneywood-alta-typst": "GeorgeHoneywood-alta-typst",
+        "andreasKroepelin-typst-slides": "andreasKroepelin-typst-slides",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
