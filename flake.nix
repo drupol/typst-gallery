@@ -14,6 +14,11 @@
       url = "github:sahasatvik/typst-theorems";
       flake = false;
     };
+
+    GeorgeHoneywood-alta-typst = {
+      url = "github:GeorgeHoneywood/alta-typst";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -46,6 +51,10 @@
           {
             name = "sahasatvik-typst-theorems";
             filename = "differential_calculus";
+          }
+          {
+            name = "GeorgeHoneywood-alta-typst";
+            filename = "example";
           }
         ];
 

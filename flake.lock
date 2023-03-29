@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "GeorgeHoneywood-alta-typst": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679736422,
+        "narHash": "sha256-iUF5+Hzbjc9+UaTBaDbZfEw3u9I4+Wv8UELmq3tUKak=",
+        "owner": "GeorgeHoneywood",
+        "repo": "alta-typst",
+        "rev": "267859d517b524ec356acaf961f44dfdaf21a66c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "GeorgeHoneywood",
+        "repo": "alta-typst",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -85,6 +101,7 @@
     },
     "root": {
       "inputs": {
+        "GeorgeHoneywood-alta-typst": "GeorgeHoneywood-alta-typst",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
@@ -95,11 +112,11 @@
     "sahasatvik-typst-theorems": {
       "flake": false,
       "locked": {
-        "lastModified": 1680080593,
-        "narHash": "sha256-aO4MGcOTC0veVxsm7eFxAb474ldtZDIkOASCp+b653Y=",
+        "lastModified": 1680093167,
+        "narHash": "sha256-DqVN2GSx6nAkwr0FDgBS71Znw9hlceDbnPjGjMn+sHA=",
         "owner": "sahasatvik",
         "repo": "typst-theorems",
-        "rev": "4e478d0e81748904070eaa7d4bbc25b85eb6b288",
+        "rev": "52f7631d06324bfb568fd9889e1ce6ddb11496f4",
         "type": "github"
       },
       "original": {
