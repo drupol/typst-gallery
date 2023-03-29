@@ -53,53 +53,6 @@
           inherit system;
         };
 
-        typst-external-sources = [
-          {
-            name = "typst-templates";
-            filename = "ams/main";
-          }
-          {
-            name = "typst-templates";
-            filename = "dept-news/main";
-          }
-          {
-            name = "typst-templates";
-            filename = "fiction/main";
-          }
-          {
-            name = "typst-templates";
-            filename = "ieee/main";
-          }
-          {
-            name = "typst-templates";
-            filename = "letter/main";
-          }
-          {
-            name = "sahasatvik-typst-theorems";
-            filename = "example";
-          }
-          {
-            name = "sahasatvik-typst-theorems";
-            filename = "differential_calculus";
-          }
-          {
-            name = "GeorgeHoneywood-alta-typst";
-            filename = "example";
-          }
-          {
-            name = "andreasKroepelin-typst-slides";
-            filename = "examples/simple";
-          }
-          {
-            name = "andreasKroepelin-typst-slides";
-            filename = "examples/doc";
-          }
-          {
-            name = "andreasKroepelin-typst-slides";
-            filename = "examples/gauss";
-          }
-        ];
-
         typst = let
           fontsConf = pkgs.symlinkJoin {
             name = "typst-fonts";
@@ -118,12 +71,30 @@
             runtimeInputs = [];
           };
 
+        sources = builtins.fromJSON (builtins.readFile ./sources.json);
+
+        typst-external-sources =
+          builtins.foldl'
+          (carry: current:
+            carry
+            ++
+            (map
+              (document: {
+                name = current.name;
+                filename = document;
+              })
+            current.documents
+            )
+          )
+          []
+          sources.sources;
+
         typst-documents = builtins.listToAttrs (map (source: let
             outputFilename = builtins.replaceStrings ["/"] ["-"] source.filename;
           in {
             name = "${source.name}-${outputFilename}";
             value = pkgs.stdenvNoCC.mkDerivation {
-              name = "typst-${source.name}";
+              name = "package-${source.name}";
 
               src = inputs."${source.name}";
 

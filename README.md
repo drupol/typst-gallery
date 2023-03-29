@@ -4,46 +4,19 @@ This project will build the default [Typst][typst] templates from https://github
 
 ## Usage
 
-1. Clone the repository
+### To list all the available documents
 
-```shell
-git clone https://github.com/drupol/typst-document
-cd typst-document
+```
+nix flake show
 ```
 
-2. Build example templates
+### To build a document
 
 ```shell
-nix build .#ams
-nix build .#dept-news
-nix build .#fiction
-nix build .#ieee
-nix build .#letter
-
-open result/ams.pdf
-open result/dept-news.pdf
-open result/fiction.pdf
-open result/ieee.pdf
-open result/letter.pdf
+nix build .#<name>
 ```
 
-3. Watch the document and recompile on changes
-
-```shell
-nix run .#watch-typst-ams
-nix run .#watch-typst-dept-news
-nix run .#watch-typst-fiction
-nix run .#watch-typst-ieee
-nix run .#watch-typst-letter
-```
-
-Then open the resulting PDF file in the `build` directory with your favorite viewer.
-
-## Font management
-
-Add custom fonts in the `fonts/` directory.
-
-To check what are the available fonts, execute `nix develop` then run `typst --fonts`
+Where you replace the placeholder `<name>` with the name of the package from `nix flake show`.
 
 [typst]: https://typst.app/
 [nix]: https://nixos.org/

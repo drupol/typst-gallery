@@ -1,0 +1,41 @@
+{
+    "sources": [
+        {
+            "name": "typst-templates",
+            "documents": [
+                "ams/main",
+                "ieee/main",
+                "letter/main"
+            ]
+        },
+        {
+            "name": "sahasatvik-typst-theorems",
+            "documents": [
+                "example",
+                "differential_calculus"
+            ]
+        },
+        {
+            "name": "GeorgeHoneywood-alta-typst",
+            "documents": [
+                "example"
+            ]
+        },
+        {
+            "name": "andreasKroepelin-typst-slides",
+            "documents": [
+                "examples/doc",
+                "examples/gauss",
+                "examples/simple"
+            ]
+        },
+        {
+            "name": "andreasKroepelin-typst-slides",
+            "documents": [
+                "examples/doc",
+                "examples/gauss",
+                "examples/simple"
+            ]
+        }
+    ]
+}
