@@ -29,6 +29,16 @@
       url = "github:andreasKroepelin/typst-slides";
       flake = false;
     };
+
+    johanvx-typst-undergradmath = {
+      url = "github:johanvx/typst-undergradmath";
+      flake = false;
+    };
+
+    Leedehai-typst-physics = {
+      url = "github:Leedehai/typst-physics";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

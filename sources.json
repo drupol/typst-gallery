@@ -36,6 +36,18 @@
                 "examples/gauss",
                 "examples/simple"
             ]
+        },
+        {
+            "name": "johanvx-typst-undergradmath",
+            "documents": [
+                "undergradmath"
+            ]
+        },
+        {
+            "name": "Leedehai-typst-physics",
+            "documents": [
+                "physics-manual"
+            ]
         }
     ]
 }
