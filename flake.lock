@@ -181,11 +181,11 @@
     "sahasatvik-typst-theorems": {
       "flake": false,
       "locked": {
-        "lastModified": 1680108953,
-        "narHash": "sha256-hBweckCpo9pcYod0BP0Iq0DFfqL3hao32bhTcksJyqE=",
+        "lastModified": 1680122714,
+        "narHash": "sha256-4tnUDXAK8VFcBeNmBb0SwFm41Mf0Fdl+Wawsy+FDTjU=",
         "owner": "sahasatvik",
         "repo": "typst-theorems",
-        "rev": "b9192af72e917b073c1ceba766fd791e84757bf1",
+        "rev": "35761dcabd6cc4bceb58df0ab7a4a3ff765ad2a1",
         "type": "github"
       },
       "original": {
@@ -199,11 +199,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1680015867,
-        "narHash": "sha256-iOt6ni94cSUVGm8JCjabNA6EZYdc8ngRIdH7YF5ShA8=",
+        "lastModified": 1680129382,
+        "narHash": "sha256-DGDi82y8VTfXVrjrKVpi+bHNYjtoJ0Rg+ipwdOK9Q6A=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "e13fc04c3e973da60d5f4e9cc6fc38105cd2ddf9",
+        "rev": "4d9c6b28d0a811ed7bd090a95774baf3bfa94c55",
         "type": "github"
       },
       "original": {
