@@ -4,6 +4,8 @@
             "name": "typst-templates",
             "documents": [
                 "ams/main",
+                "dept-news/main",
+                "fiction/main",
                 "ieee/main",
                 "letter/main"
             ]
