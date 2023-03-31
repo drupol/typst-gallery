@@ -19,11 +19,11 @@
     "Leedehai-typst-physics": {
       "flake": false,
       "locked": {
-        "lastModified": 1680059634,
-        "narHash": "sha256-Ya8ofaMKyOAIsb57jKv74WDu17FNKrS0nuy5gzTSWzQ=",
+        "lastModified": 1680231700,
+        "narHash": "sha256-yVyKzefwpwgHFYGQSoEW+TbpPVPTiJRXYjfCe5qn1Cg=",
         "owner": "Leedehai",
         "repo": "typst-physics",
-        "rev": "4cbafaa028c27eb72318b9ba3083cdbbf7d04e4d",
+        "rev": "1fb52691aee82aad42b57aac49efa6d7cd8d485a",
         "type": "github"
       },
       "original": {
@@ -115,11 +115,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1680030621,
-        "narHash": "sha256-qQa1NeS5Rvk2lgK5lSk986PC6I72yIHejzM8PFu+dHs=",
+        "lastModified": 1680182246,
+        "narHash": "sha256-2WEHGApYCVt7bCm/0Ws8qYnp5Jn0mRgZ91tkoN+HrcY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "402cc3633cc60dfc50378197305c984518b30773",
+        "rev": "b7fc729117a70d0df9e9adfc624662148e32ca0a",
         "type": "github"
       },
       "original": {
@@ -181,11 +181,11 @@
     "sahasatvik-typst-theorems": {
       "flake": false,
       "locked": {
-        "lastModified": 1680122714,
-        "narHash": "sha256-4tnUDXAK8VFcBeNmBb0SwFm41Mf0Fdl+Wawsy+FDTjU=",
+        "lastModified": 1680189858,
+        "narHash": "sha256-l9/mPD3r/155ne/gm51BIqxyaE8SMN7aGkZGzu8q728=",
         "owner": "sahasatvik",
         "repo": "typst-theorems",
-        "rev": "35761dcabd6cc4bceb58df0ab7a4a3ff765ad2a1",
+        "rev": "3835f2574017bc67d6873b2c1f249be7db0a20de",
         "type": "github"
       },
       "original": {
@@ -199,11 +199,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1680129382,
-        "narHash": "sha256-DGDi82y8VTfXVrjrKVpi+bHNYjtoJ0Rg+ipwdOK9Q6A=",
+        "lastModified": 1680206368,
+        "narHash": "sha256-jSKwGcBVfbzjl46omFRa2nzNcuF59lwymF6OgMKszDY=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "4d9c6b28d0a811ed7bd090a95774baf3bfa94c55",
+        "rev": "9414d56f97c5be71d9c37abb0fd1632a76bde995",
         "type": "github"
       },
       "original": {
