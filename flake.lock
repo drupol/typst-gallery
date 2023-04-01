@@ -19,11 +19,11 @@
     "Leedehai-typst-physics": {
       "flake": false,
       "locked": {
-        "lastModified": 1680231700,
-        "narHash": "sha256-yVyKzefwpwgHFYGQSoEW+TbpPVPTiJRXYjfCe5qn1Cg=",
+        "lastModified": 1680321494,
+        "narHash": "sha256-Nzq70/yWHOAR8GyzkWQPRgC7mRc/ndRK3wl0Wu263AE=",
         "owner": "Leedehai",
         "repo": "typst-physics",
-        "rev": "1fb52691aee82aad42b57aac49efa6d7cd8d485a",
+        "rev": "2a3a7df46c49026d3c708580ec81aa00d7abdff3",
         "type": "github"
       },
       "original": {
@@ -84,11 +84,11 @@
     "johannes-wolf-typst-plot": {
       "flake": false,
       "locked": {
-        "lastModified": 1680107489,
-        "narHash": "sha256-AdPEIkwYA2sRUi0qc23Z6dpw0BIyAxHQTFp8BTbCY3U=",
+        "lastModified": 1680279368,
+        "narHash": "sha256-ryAGl1jQhcgQImnIoKyAESVRk5syZC44XO3FI0zUFDM=",
         "owner": "johannes-wolf",
         "repo": "typst-plot",
-        "rev": "6a29da506c03060ea6f5fad678fe5e4d238652a7",
+        "rev": "11fbfe42ec534003bcd1cf372877119d68bfa8b7",
         "type": "github"
       },
       "original": {
@@ -100,11 +100,11 @@
     "johanvx-typst-undergradmath": {
       "flake": false,
       "locked": {
-        "lastModified": 1679981727,
-        "narHash": "sha256-kEE3t0/g0wzZhUwyGKl24kSgrdMzl0JBuYwAR2AB18E=",
+        "lastModified": 1680264543,
+        "narHash": "sha256-xW0RN2ZXYT8yVStTzGlT0jlt+er3K7dbftfZk//K0sg=",
         "owner": "johanvx",
         "repo": "typst-undergradmath",
-        "rev": "51f56a8efed7b441b23d255cb0d809197df7652c",
+        "rev": "537b1264c1f526617ce39818cde154a19a98697a",
         "type": "github"
       },
       "original": {
@@ -115,11 +115,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1680182246,
-        "narHash": "sha256-2WEHGApYCVt7bCm/0Ws8qYnp5Jn0mRgZ91tkoN+HrcY=",
+        "lastModified": 1680273054,
+        "narHash": "sha256-Bs6/5LpvYp379qVqGt9mXxxx9GSE789k3oFc+OAL07M=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b7fc729117a70d0df9e9adfc624662148e32ca0a",
+        "rev": "3364b5b117f65fe1ce65a3cdd5612a078a3b31e3",
         "type": "github"
       },
       "original": {
@@ -199,11 +199,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1680206368,
-        "narHash": "sha256-jSKwGcBVfbzjl46omFRa2nzNcuF59lwymF6OgMKszDY=",
+        "lastModified": 1680285401,
+        "narHash": "sha256-tbsvS4vw6iQ3VLU56JQaAyrzXB+7jumN19V7Wy19xHw=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "9414d56f97c5be71d9c37abb0fd1632a76bde995",
+        "rev": "cc67e5309994eefd1bd1c892f040ec7912052a4b",
         "type": "github"
       },
       "original": {
