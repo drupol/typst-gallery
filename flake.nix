@@ -123,6 +123,7 @@
 
                 ${typst}/bin/typst \
                   --root $src/ \
+                  compile
                   $src/${source.filename}.typ \
                   ${source.name}-${outputFilename}.pdf
 
