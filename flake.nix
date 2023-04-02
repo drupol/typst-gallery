@@ -44,6 +44,11 @@
       url = "github:johannes-wolf/typst-plot";
       flake = false;
     };
+
+    pncnmnp-typst-poster = {
+      url = "github:pncnmnp/typst-poster";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

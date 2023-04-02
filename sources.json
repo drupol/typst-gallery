@@ -57,6 +57,12 @@
             "documents": [
                 "test-plot"
             ]
+        },
+        {
+            "name": "pncnmnp-typst-poster",
+            "documents": [
+                "poster"
+            ]
         }
     ]
 }
