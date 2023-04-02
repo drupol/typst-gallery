@@ -163,6 +163,22 @@
         "type": "github"
       }
     },
+    "pncnmnp-typst-poster": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680374499,
+        "narHash": "sha256-AeErf9mhFKOV+hiQJHiJNpM+Xly/kdKqgq4w5kOPbic=",
+        "owner": "pncnmnp",
+        "repo": "typst-poster",
+        "rev": "396e0ce1ba061803f58884919cf05cce669c82a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pncnmnp",
+        "repo": "typst-poster",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "GeorgeHoneywood-alta-typst": "GeorgeHoneywood-alta-typst",
@@ -173,6 +189,7 @@
         "johannes-wolf-typst-plot": "johannes-wolf-typst-plot",
         "johanvx-typst-undergradmath": "johanvx-typst-undergradmath",
         "nixpkgs": "nixpkgs",
+        "pncnmnp-typst-poster": "pncnmnp-typst-poster",
         "sahasatvik-typst-theorems": "sahasatvik-typst-theorems",
         "typst": "typst",
         "typst-templates": "typst-templates"
