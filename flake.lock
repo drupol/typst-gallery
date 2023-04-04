@@ -84,11 +84,11 @@
     "johannes-wolf-typst-plot": {
       "flake": false,
       "locked": {
-        "lastModified": 1680442273,
-        "narHash": "sha256-9apAGeYWj5ZCeAF253HtbMtB5g3fJ1ED85Z/EpB5ThY=",
+        "lastModified": 1680530234,
+        "narHash": "sha256-0GLEzZ90sOC/gdHCpk+UCuhLTuUshWtO5/MRDBD94+E=",
         "owner": "johannes-wolf",
         "repo": "typst-plot",
-        "rev": "ebe0db34fcfc21de79caedff7331fab62ec48a2b",
+        "rev": "5cb7c99981d3a12677810429ec395c9c65dbc162",
         "type": "github"
       },
       "original": {
@@ -115,11 +115,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1680303149,
-        "narHash": "sha256-JQO/mAWguuN0VPRxDrYDw6LtyVpFgf3w6TR5MraF9kg=",
+        "lastModified": 1680487167,
+        "narHash": "sha256-9FNIqrxDZgSliGGN2XJJSvcDYmQbgOANaZA4UWnTdg4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "242246ee1e58f54d2322227fc5eef53b4a616a31",
+        "rev": "53dad94e874c9586e71decf82d972dfb640ef044",
         "type": "github"
       },
       "original": {
@@ -216,11 +216,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1680459502,
-        "narHash": "sha256-JDqKLNzMMtpuDYpRAIEqnTFUK5ThD8Kw1m1Tcf3A6+Q=",
+        "lastModified": 1680530183,
+        "narHash": "sha256-EFRqZhoQCCUyCmTeJAnMZHBvaVa0Sfx9TybJj3gyNFI=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "37eededc9d9a5ff1c0d5ccdd7a348268cfd40735",
+        "rev": "2c735294cd5e47f1f1eb6402a3b8c500dccd047b",
         "type": "github"
       },
       "original": {
