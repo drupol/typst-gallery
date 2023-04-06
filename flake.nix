@@ -49,6 +49,11 @@
       url = "github:pncnmnp/typst-poster";
       flake = false;
     };
+
+    ludwig-austermann-typst-din-5008-letter = {
+      url = "github:ludwig-austermann/typst-din-5008-letter";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

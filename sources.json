@@ -63,6 +63,14 @@
             "documents": [
                 "poster"
             ]
+        },
+        {
+            "name": "ludwig-austermann-typst-din-5008-letter",
+            "documents": [
+                "examples/envelope_ex",
+                "examples/example_letter",
+                "examples/template_letter"
+            ]
         }
     ]
 }
