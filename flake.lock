@@ -113,6 +113,22 @@
         "type": "github"
       }
     },
+    "ludwig-austermann-typst-din-5008-letter": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680740218,
+        "narHash": "sha256-uR6tPYdvHQjnFb7fOeAhrElcTejFZdXRHnKXlvvp5P8=",
+        "owner": "ludwig-austermann",
+        "repo": "typst-din-5008-letter",
+        "rev": "f9bb8e987c0553e1c6ad95d8a07c22480f8dd6a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ludwig-austermann",
+        "repo": "typst-din-5008-letter",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1680668850,
@@ -188,6 +204,7 @@
         "flake-parts": "flake-parts",
         "johannes-wolf-typst-plot": "johannes-wolf-typst-plot",
         "johanvx-typst-undergradmath": "johanvx-typst-undergradmath",
+        "ludwig-austermann-typst-din-5008-letter": "ludwig-austermann-typst-din-5008-letter",
         "nixpkgs": "nixpkgs",
         "pncnmnp-typst-poster": "pncnmnp-typst-poster",
         "sahasatvik-typst-theorems": "sahasatvik-typst-theorems",

@@ -55,7 +55,9 @@
         {
             "name": "johannes-wolf-typst-plot",
             "documents": [
-                "test-plot"
+                "examples/multi",
+                "examples/simple",
+                "examples/util"
             ]
         },
         {
