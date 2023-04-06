@@ -7,4 +7,4 @@ on:
 
 jobs:
   update-flake:
-    uses: loophp/flake-lock-update-workflow/.github/workflows/auto-upgrade-flakes.yaml@main
+    uses: loophp/flake-lock-update-workflow/.github/workflows/upgrade-flakes.yaml@main
