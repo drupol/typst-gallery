@@ -57,7 +57,6 @@
             "documents": [
                 "examples/multi",
                 "examples/simple",
-                "examples/util"
             ]
         },
         {
