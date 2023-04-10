@@ -19,11 +19,11 @@
     "Leedehai-typst-physics": {
       "flake": false,
       "locked": {
-        "lastModified": 1680706028,
-        "narHash": "sha256-saBh99GbtAUoWfIk6RPz+lZk0jfkcWXSawhwFMuafRM=",
+        "lastModified": 1680920468,
+        "narHash": "sha256-HrOks80YV+q55yuQ93AUhT6hRFfOf0HeP4f8yn+3/zY=",
         "owner": "Leedehai",
         "repo": "typst-physics",
-        "rev": "2923a3b77ccf66bf78cb35c57edc88a3d3fa5b0e",
+        "rev": "9b8425c53b164711db4c7e1c342e18d0bc79905a",
         "type": "github"
       },
       "original": {
@@ -35,11 +35,11 @@
     "andreasKroepelin-typst-slides": {
       "flake": false,
       "locked": {
-        "lastModified": 1680018752,
-        "narHash": "sha256-M27fMKV6QJZpRybL7/AFy5x4z57yr57g7XMWtzK6DVk=",
+        "lastModified": 1681126051,
+        "narHash": "sha256-vvxPH69i5y/gkfnU6d0A4E8cAzgIjKr1cEOYm3f3KNU=",
         "owner": "andreasKroepelin",
         "repo": "typst-slides",
-        "rev": "3089fb3cc4bd76bbc42ffe957196b463b4e2f8a0",
+        "rev": "0d921ad5308f570d3bd2d322f0a822bd08706642",
         "type": "github"
       },
       "original": {
@@ -84,11 +84,11 @@
     "johannes-wolf-typst-plot": {
       "flake": false,
       "locked": {
-        "lastModified": 1680785450,
-        "narHash": "sha256-JMG+j/fC7ZSDaqlHN5saGGW37G+xZOE04WLXFkUr3xc=",
+        "lastModified": 1680965587,
+        "narHash": "sha256-w9CLTel2GI4/WFSaOnr6AwA/hNHCjD0VeehhWb0Uj8M=",
         "owner": "johannes-wolf",
         "repo": "typst-plot",
-        "rev": "7de9cd8ecf554fa99b2cd46cd5ca33b9a61000a8",
+        "rev": "26fe875425600fdcaea4c39dc6d64a5a486226ca",
         "type": "github"
       },
       "original": {
@@ -100,11 +100,11 @@
     "johanvx-typst-undergradmath": {
       "flake": false,
       "locked": {
-        "lastModified": 1680264543,
-        "narHash": "sha256-xW0RN2ZXYT8yVStTzGlT0jlt+er3K7dbftfZk//K0sg=",
+        "lastModified": 1681108117,
+        "narHash": "sha256-uJjdlJ2I1ik26B87qjhxReUWULEPdeqEY3IMDuGvA1E=",
         "owner": "johanvx",
         "repo": "typst-undergradmath",
-        "rev": "537b1264c1f526617ce39818cde154a19a98697a",
+        "rev": "65faf7ceaa479ce0f1981008a7f51284eafdd58b",
         "type": "github"
       },
       "original": {
@@ -131,11 +131,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1680668850,
-        "narHash": "sha256-mQMg13yRsS0LXVzaeoSPwqgPO6yhkGzGewPgMSqXSv8=",
+        "lastModified": 1681064623,
+        "narHash": "sha256-UngFykv8KTrjxFeu4ZMvsOwFrxsa0A3ZPwyLhxb0Rrs=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4a65e9f64e53fdca6eed31adba836717a11247d2",
+        "rev": "da0b0bc6a5d699a8a9ffbf9e1b19e8642307062a",
         "type": "github"
       },
       "original": {
@@ -233,11 +233,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1680785945,
-        "narHash": "sha256-8va1B1kTSRHa3mNi0dSDU7MsLXsf1en+f1A9RSLoMwQ=",
+        "lastModified": 1680860298,
+        "narHash": "sha256-aDLg97A+isOBFJMIww2mjVPyTCPSVlguo2tojzms/04=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "1e5a100d6a1cec71fe173009bd2b754ca0b5bd3f",
+        "rev": "94e052b8ccace3221aa960b9abe3b3f32b1d894f",
         "type": "github"
       },
       "original": {
