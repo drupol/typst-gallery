@@ -108,12 +108,16 @@
             value = pkgs.stdenvNoCC.mkDerivation {
               name = "package-${source.name}";
 
+              buildInputs = [
+                pkgs.typst
+              ];
+
               src = inputs."${source.name}";
 
               buildPhase = ''
                 runHook preBuild
 
-                ${pkgs.typst-dev}/bin/typst \
+                typst \
                   --root $src/ \
                   compile \
                   $src/${source.filename}.typ \
