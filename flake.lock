@@ -179,6 +179,22 @@
         "type": "github"
       }
     },
+    "platformer-typst-algorithms": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681160201,
+        "narHash": "sha256-4/POUt/2XL4QnTAKshHU0W9B/TznCCaHy7Na3PxzMMo=",
+        "owner": "platformer",
+        "repo": "typst-algorithms",
+        "rev": "07f77dd2b32d99a3688e8fd27ae1048e6a1d2a8e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "platformer",
+        "repo": "typst-algorithms",
+        "type": "github"
+      }
+    },
     "pncnmnp-typst-poster": {
       "flake": false,
       "locked": {
@@ -206,6 +222,7 @@
         "johanvx-typst-undergradmath": "johanvx-typst-undergradmath",
         "ludwig-austermann-typst-din-5008-letter": "ludwig-austermann-typst-din-5008-letter",
         "nixpkgs": "nixpkgs",
+        "platformer-typst-algorithms": "platformer-typst-algorithms",
         "pncnmnp-typst-poster": "pncnmnp-typst-poster",
         "sahasatvik-typst-theorems": "sahasatvik-typst-theorems",
         "typst": "typst",

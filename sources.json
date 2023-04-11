@@ -72,6 +72,12 @@
                 "examples/example_letter",
                 "examples/template_letter"
             ]
+        },
+        {
+            "name": "platformer-typst-algorithms",
+            "documents": [
+                "algo-example"
+            ]
         }
     ]
 }

@@ -54,6 +54,11 @@
       url = "github:ludwig-austermann/typst-din-5008-letter";
       flake = false;
     };
+
+    platformer-typst-algorithms = {
+      url = "github:platformer/typst-algorithms";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -147,15 +152,6 @@
         formatter = pkgs.alejandra;
 
         packages = typst-documents;
-
-        # Nix develop
-        devShells.default = pkgs.mkShellNoCC {
-          name = "typst-devshell";
-
-          buildInputs = [
-            typst
-          ];
-        };
       };
     };
 }
