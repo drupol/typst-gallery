@@ -83,24 +83,6 @@
           inherit system;
         };
 
-        typst = let
-          fontsConf = pkgs.symlinkJoin {
-            name = "typst-fonts";
-            paths = [
-              ./fonts
-            ];
-          };
-        in
-          pkgs.writeShellApplication {
-            name = "typst";
-            text = ''
-              ${pkgs.typst-dev}/bin/typst \
-              --font-path ${fontsConf} \
-              "$@"
-            '';
-            runtimeInputs = [];
-          };
-
         sources = builtins.fromJSON (builtins.readFile ./sources.json);
 
         typst-external-sources =
@@ -131,7 +113,7 @@
               buildPhase = ''
                 runHook preBuild
 
-                ${typst}/bin/typst \
+                ${pkgs.typst-dev}/bin/typst \
                   --root $src/ \
                   compile \
                   $src/${source.filename}.typ \
