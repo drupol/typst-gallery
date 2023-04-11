@@ -109,7 +109,7 @@
               name = "package-${source.name}";
 
               buildInputs = [
-                pkgs.typst
+                pkgs.typst-dev
               ];
 
               src = inputs."${source.name}";
