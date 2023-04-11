@@ -62,6 +62,15 @@ jobs:
             - name: Install Nix
               uses: cachix/install-nix-action@v18
 
+            - uses: cachix/cachix-action@v12
+              with:
+                name: typst-document
+                authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+
+            - name: Build typst bleeding edge
+              run: |
+                nix build github:typst/typst
+
             - name: Build ${{ matrix.packages }}
               run: |
                 nix build .#${{ matrix.packages }}
