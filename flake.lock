@@ -19,11 +19,11 @@
     "Leedehai-typst-physics": {
       "flake": false,
       "locked": {
-        "lastModified": 1681184875,
-        "narHash": "sha256-6UgQLCzG6XFXBWb59k1QJ/NUmvtObTGTa4HK1BImsfU=",
+        "lastModified": 1681261585,
+        "narHash": "sha256-l0ebSI53ZrogOJFdQ86DH2l8uGBGPmBIHmiZEqXNf54=",
         "owner": "Leedehai",
         "repo": "typst-physics",
-        "rev": "6773dcccf123ac761c1dc403ecca2fcec9b785ae",
+        "rev": "93f773f939d1b2ddc43c3340c5400141d191cf35",
         "type": "github"
       },
       "original": {
@@ -35,11 +35,11 @@
     "andreasKroepelin-typst-slides": {
       "flake": false,
       "locked": {
-        "lastModified": 1681126051,
-        "narHash": "sha256-vvxPH69i5y/gkfnU6d0A4E8cAzgIjKr1cEOYm3f3KNU=",
+        "lastModified": 1681255850,
+        "narHash": "sha256-JUPMrEkTJCKPelDmce/cw5TcNE2FmSlwgN74v3lf74g=",
         "owner": "andreasKroepelin",
         "repo": "typst-slides",
-        "rev": "0d921ad5308f570d3bd2d322f0a822bd08706642",
+        "rev": "a548a7977fc425c1c3b7c5af1af1925fac37cdc6",
         "type": "github"
       },
       "original": {
@@ -84,11 +84,11 @@
     "johannes-wolf-typst-plot": {
       "flake": false,
       "locked": {
-        "lastModified": 1680965587,
-        "narHash": "sha256-w9CLTel2GI4/WFSaOnr6AwA/hNHCjD0VeehhWb0Uj8M=",
+        "lastModified": 1681266143,
+        "narHash": "sha256-oOY8lzy3ElPf6VAf28eotq57vUh540A23m0RxD6/7PU=",
         "owner": "johannes-wolf",
         "repo": "typst-plot",
-        "rev": "26fe875425600fdcaea4c39dc6d64a5a486226ca",
+        "rev": "548125fb9b47085ab748dd1f9aedde0ddc092874",
         "type": "github"
       },
       "original": {
