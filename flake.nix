@@ -59,6 +59,11 @@
       url = "github:platformer/typst-algorithms";
       flake = false;
     };
+
+    PgBiel-typst-tablex = {
+      url = "github:PgBiel/typst-tablex";
+      flake = false;
+    }
   };
 
   outputs = inputs @ {flake-parts, ...}:
