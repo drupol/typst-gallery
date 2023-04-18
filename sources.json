@@ -35,8 +35,9 @@
         {
             "name": "andreasKroepelin-typst-slides",
             "documents": [
-                "examples/doc",
+                "examples/demo",
                 "examples/gauss",
+                "examples/override-theme",
                 "examples/simple"
             ]
         },
