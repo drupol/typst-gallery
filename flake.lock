@@ -116,11 +116,11 @@
     "johanvx-typst-undergradmath": {
       "flake": false,
       "locked": {
-        "lastModified": 1681305200,
-        "narHash": "sha256-Jiec1t41L+bFLHvGgBwz9K/5fVpKWvoumt+FePlrjLY=",
+        "lastModified": 1681836752,
+        "narHash": "sha256-K7J8L6BL8tLlW5fZSTigbSM3ptKExgV7W+l8p8wRBb4=",
         "owner": "johanvx",
         "repo": "typst-undergradmath",
-        "rev": "ee8055306eebeb072f32a6ca3129277e17dd8798",
+        "rev": "7c68c65cf685c43c44be6851c1d95c6520a5be52",
         "type": "github"
       },
       "original": {
@@ -267,11 +267,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1681754385,
-        "narHash": "sha256-UuIaouTqPm+s+qFXaLPgDlnOUEaoYx0Aib7FFOd4THc=",
+        "lastModified": 1681838173,
+        "narHash": "sha256-Aqe63Ga66/dSnkX1rjb0Ld5pKVBRgCCoPn4mzbndYIM=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "b51cb131bdfff327eadf5cfcb33e938b04363945",
+        "rev": "d10b53df0b487036b0d639b6033f4568648cfff1",
         "type": "github"
       },
       "original": {
