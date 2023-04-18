@@ -27,18 +27,11 @@
         {
             "name": "andreasKroepelin-typst-slides",
             "documents": [
-                "examples/doc",
-                "examples/gauss",
-                "examples/simple"
-            ]
-        },
-        {
-            "name": "andreasKroepelin-typst-slides",
-            "documents": [
                 "examples/demo",
                 "examples/gauss",
-                "examples/override-theme",
-                "examples/simple"
+                "examples/simple",
+                "book/src/theme-gallery/default",
+                "book/src/theme-gallery/bipartite"
             ]
         },
         {
