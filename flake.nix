@@ -63,7 +63,7 @@
     PgBiel-typst-tablex = {
       url = "github:PgBiel/typst-tablex";
       flake = false;
-    }
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
