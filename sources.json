@@ -41,12 +41,6 @@
             ]
         },
         {
-            "name": "Leedehai-typst-physics",
-            "documents": [
-                "physics-manual"
-            ]
-        },
-        {
             "name": "johannes-wolf-typst-plot",
             "documents": [
                 "examples/multi",

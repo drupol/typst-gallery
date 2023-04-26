@@ -35,11 +35,6 @@
       flake = false;
     };
 
-    Leedehai-typst-physics = {
-      url = "github:Leedehai/typst-physics";
-      flake = false;
-    };
-
     johannes-wolf-typst-plot = {
       url = "github:johannes-wolf/typst-plot";
       flake = false;
