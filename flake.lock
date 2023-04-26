@@ -16,22 +16,6 @@
         "type": "github"
       }
     },
-    "Leedehai-typst-physics": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1682384337,
-        "narHash": "sha256-Gd7mHHWD2DtIQNOpV5BFtVZC2FFe0EJCzO+b8PkEqu8=",
-        "owner": "Leedehai",
-        "repo": "typst-physics",
-        "rev": "ed3b5e38c1ae8cb3125cc3620866e3e81abc2dd2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Leedehai",
-        "repo": "typst-physics",
-        "type": "github"
-      }
-    },
     "PgBiel-typst-tablex": {
       "flake": false,
       "locked": {
@@ -230,7 +214,6 @@
     "root": {
       "inputs": {
         "GeorgeHoneywood-alta-typst": "GeorgeHoneywood-alta-typst",
-        "Leedehai-typst-physics": "Leedehai-typst-physics",
         "PgBiel-typst-tablex": "PgBiel-typst-tablex",
         "andreasKroepelin-typst-slides": "andreasKroepelin-typst-slides",
         "flake-compat": "flake-compat",
@@ -249,11 +232,11 @@
     "sahasatvik-typst-theorems": {
       "flake": false,
       "locked": {
-        "lastModified": 1681998971,
-        "narHash": "sha256-JTlYV7DOVDz+GHr/VFH9JH4Dii0Sn/g2cV1b25wBpwc=",
+        "lastModified": 1682528738,
+        "narHash": "sha256-RJCIiVUUD1toYFwKjmSEkh4T6Y7CJf0anxalE8HPmAU=",
         "owner": "sahasatvik",
         "repo": "typst-theorems",
-        "rev": "8f5e464e464392b5c394756824ea9414af13861e",
+        "rev": "d09b6ea49a3ac3a550ea734fb7e4ea2d63ba1e05",
         "type": "github"
       },
       "original": {
@@ -267,11 +250,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1682488021,
-        "narHash": "sha256-c5QL0sjJ3//GX4SWuFH40FjBZ0FcsUP1Yx7O1Uys+NI=",
+        "lastModified": 1682534245,
+        "narHash": "sha256-vvuhpraGpSxAoPCFz1z4zSPw3P5d+Ookfb1jwGTYep4=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "0d1037a58c534c1ef26e69d430f872b82f465378",
+        "rev": "5100046acf0fd31f805506f156c59c635c46cf93",
         "type": "github"
       },
       "original": {
@@ -283,11 +266,11 @@
     "typst-templates": {
       "flake": false,
       "locked": {
-        "lastModified": 1682329947,
-        "narHash": "sha256-bbwxZHhz15JsGaSPeXl5kmcWI4Uorwwe+aAuWepTxqM=",
+        "lastModified": 1682517565,
+        "narHash": "sha256-ClvB5mny1SJQX04w6M8h+Gg2A77BiCKVavSAjup4RgY=",
         "owner": "typst",
         "repo": "templates",
-        "rev": "a2123e3ece8f325963f07bbf5811013eb609ba8c",
+        "rev": "7cec678fb6a6782361c79f3ac87c41a8a2b4a0a2",
         "type": "github"
       },
       "original": {
