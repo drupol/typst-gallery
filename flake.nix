@@ -69,6 +69,11 @@
       url = "github:ludwig-austermann/typst-timetable";
       flake = false;
     };
+
+    fenjalien-circuitypst = {
+      url = "github:fenjalien/circuitypst";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

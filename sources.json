@@ -84,6 +84,14 @@
             "documents": [
                 "example/2023"
             ]
+        },
+        {
+            "name": "fenjalien-circuitypst",
+            "documents": [
+                "examples/current-shunt",
+                "examples/exclusive-or",
+                "examples/half-adder"
+            ]
         }
     ]
 }
