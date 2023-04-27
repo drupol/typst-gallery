@@ -74,6 +74,11 @@
       url = "github:fenjalien/circuitypst";
       flake = false;
     };
+
+    kaarmu-typst-palettes = {
+      url = "github:kaarmu/typst-palettes";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
