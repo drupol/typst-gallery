@@ -64,6 +64,11 @@
       url = "github:PgBiel/typst-tablex";
       flake = false;
     };
+
+    ludwig-austermann-typst-timetable = {
+      url = "github:ludwig-austermann/typst-timetable";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

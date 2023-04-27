@@ -78,6 +78,12 @@
             "documents": [
                 "tablex-test"
             ]
+        },
+        {
+            "name": "ludwig-austermann-typst-timetable",
+            "documents": [
+                "example/2023"
+            ]
         }
     ]
 }
