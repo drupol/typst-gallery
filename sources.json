@@ -86,14 +86,6 @@
             ]
         },
         {
-            "name": "fenjalien-circuitypst",
-            "documents": [
-                "examples/current-shunt",
-                "examples/exclusive-or",
-                "examples/half-adder"
-            ]
-        },
-        {
             "name": "kaarmu-typst-palettes",
             "documents": [
                 "doc/main"

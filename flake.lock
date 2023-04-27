@@ -64,22 +64,6 @@
         "type": "github"
       }
     },
-    "fenjalien-circuitypst": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1682284270,
-        "narHash": "sha256-XD4Eqh0GevfKiv2wzijjILL9b2zvSCXo5IcESImfbYo=",
-        "owner": "fenjalien",
-        "repo": "circuitypst",
-        "rev": "419d5e758c2d9ddd24be387ad4185dd59f97d7a6",
-        "type": "github"
-      },
-      "original": {
-        "owner": "fenjalien",
-        "repo": "circuitypst",
-        "type": "github"
-      }
-    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -281,7 +265,6 @@
         "Leedehai-typst-physics": "Leedehai-typst-physics",
         "PgBiel-typst-tablex": "PgBiel-typst-tablex",
         "andreasKroepelin-typst-slides": "andreasKroepelin-typst-slides",
-        "fenjalien-circuitypst": "fenjalien-circuitypst",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
         "johannes-wolf-typst-plot": "johannes-wolf-typst-plot",
