@@ -16,6 +16,22 @@
         "type": "github"
       }
     },
+    "Leedehai-typst-physics": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1682553747,
+        "narHash": "sha256-nF/OEaDeLNMyQafFuHxi/5zoUX/MR11MF3Q1V+el3II=",
+        "owner": "Leedehai",
+        "repo": "typst-physics",
+        "rev": "752191d974c9f15b78196ce144d6c6d6795efcca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Leedehai",
+        "repo": "typst-physics",
+        "type": "github"
+      }
+    },
     "PgBiel-typst-tablex": {
       "flake": false,
       "locked": {
@@ -45,6 +61,22 @@
       "original": {
         "owner": "andreasKroepelin",
         "repo": "typst-slides",
+        "type": "github"
+      }
+    },
+    "fenjalien-circuitypst": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1682284270,
+        "narHash": "sha256-XD4Eqh0GevfKiv2wzijjILL9b2zvSCXo5IcESImfbYo=",
+        "owner": "fenjalien",
+        "repo": "circuitypst",
+        "rev": "419d5e758c2d9ddd24be387ad4185dd59f97d7a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fenjalien",
+        "repo": "circuitypst",
         "type": "github"
       }
     },
@@ -113,6 +145,22 @@
         "type": "github"
       }
     },
+    "kaarmu-typst-palettes": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1682179324,
+        "narHash": "sha256-V43FXFOcMehJ1lDHFX9OXOoO4XYnh+Kz5O/qe/t1S3E=",
+        "owner": "kaarmu",
+        "repo": "typst-palettes",
+        "rev": "d34c4d047194697504cc44c34a2efaccb5efdaec",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kaarmu",
+        "repo": "typst-palettes",
+        "type": "github"
+      }
+    },
     "ludwig-austermann-typst-din-5008-letter": {
       "flake": false,
       "locked": {
@@ -126,6 +174,22 @@
       "original": {
         "owner": "ludwig-austermann",
         "repo": "typst-din-5008-letter",
+        "type": "github"
+      }
+    },
+    "ludwig-austermann-typst-timetable": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1682527321,
+        "narHash": "sha256-Y8B0EzLH3Ap0b14040IKj9R6FEqkYbvOyljADxMydiE=",
+        "owner": "ludwig-austermann",
+        "repo": "typst-timetable",
+        "rev": "ef1e1ccf447b04d0a2084663c81b4818ab4d3dbe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ludwig-austermann",
+        "repo": "typst-timetable",
         "type": "github"
       }
     },
@@ -214,13 +278,17 @@
     "root": {
       "inputs": {
         "GeorgeHoneywood-alta-typst": "GeorgeHoneywood-alta-typst",
+        "Leedehai-typst-physics": "Leedehai-typst-physics",
         "PgBiel-typst-tablex": "PgBiel-typst-tablex",
         "andreasKroepelin-typst-slides": "andreasKroepelin-typst-slides",
+        "fenjalien-circuitypst": "fenjalien-circuitypst",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
         "johannes-wolf-typst-plot": "johannes-wolf-typst-plot",
         "johanvx-typst-undergradmath": "johanvx-typst-undergradmath",
+        "kaarmu-typst-palettes": "kaarmu-typst-palettes",
         "ludwig-austermann-typst-din-5008-letter": "ludwig-austermann-typst-din-5008-letter",
+        "ludwig-austermann-typst-timetable": "ludwig-austermann-typst-timetable",
         "nixpkgs": "nixpkgs",
         "platformer-typst-algorithms": "platformer-typst-algorithms",
         "pncnmnp-typst-poster": "pncnmnp-typst-poster",
