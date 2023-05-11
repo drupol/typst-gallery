@@ -90,6 +90,12 @@
             "documents": [
                 "doc/main"
             ]
+        },
+        {
+            "name": "maxdinech-typst-recipe",
+            "documents": [
+                "example"
+            ]
         }
     ]
 }

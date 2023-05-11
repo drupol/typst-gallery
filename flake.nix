@@ -74,6 +74,11 @@
       url = "github:kaarmu/typst-palettes";
       flake = false;
     };
+
+    maxdinech-typst-recipe = {
+      url = "github:maxdinech/typst-recipe";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

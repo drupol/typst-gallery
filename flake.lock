@@ -19,11 +19,11 @@
     "Leedehai-typst-physics": {
       "flake": false,
       "locked": {
-        "lastModified": 1682553747,
-        "narHash": "sha256-nF/OEaDeLNMyQafFuHxi/5zoUX/MR11MF3Q1V+el3II=",
+        "lastModified": 1683411516,
+        "narHash": "sha256-zMX8B+YMVfwZiZF/bMipKZR00TpDBJLxxN6z2FydGFk=",
         "owner": "Leedehai",
         "repo": "typst-physics",
-        "rev": "752191d974c9f15b78196ce144d6c6d6795efcca",
+        "rev": "a95461f87674dbedd70fc18cf338b2129385950a",
         "type": "github"
       },
       "original": {
@@ -35,11 +35,11 @@
     "PgBiel-typst-tablex": {
       "flake": false,
       "locked": {
-        "lastModified": 1682195902,
-        "narHash": "sha256-hMWbWG0Lt8gOeox05GFBYb2eVNnMhCbPydm4Tk8UBlQ=",
+        "lastModified": 1683316814,
+        "narHash": "sha256-DrXoIs6P3WmNKr0QdSBWS0NRQ9HXJRLksKvYNFyviqM=",
         "owner": "PgBiel",
         "repo": "typst-tablex",
-        "rev": "ab02f0c272ef4e94965771ba6cb7d2d5b38910fe",
+        "rev": "32823fea0189461a1662e8a169cce1310afac604",
         "type": "github"
       },
       "original": {
@@ -51,11 +51,11 @@
     "andreasKroepelin-typst-slides": {
       "flake": false,
       "locked": {
-        "lastModified": 1682160249,
-        "narHash": "sha256-i3Krog8VDbrvvQC5ul1RJuWO6jMQXd+5fKvfAJYF8Gw=",
+        "lastModified": 1683027189,
+        "narHash": "sha256-fjmI7khcE91tWxLMmXRpRrRXbyfasEm1Z7PV+MYW44g=",
         "owner": "andreasKroepelin",
         "repo": "typst-slides",
-        "rev": "64405822081caabad856d2b272e76b3b9c54fe86",
+        "rev": "7a140037b5c26b1b0e25141b3d4d80bb076468cb",
         "type": "github"
       },
       "original": {
@@ -85,11 +85,11 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1680392223,
-        "narHash": "sha256-n3g7QFr85lDODKt250rkZj2IFS3i4/8HBU2yKHO3tqw=",
+        "lastModified": 1683560683,
+        "narHash": "sha256-XAygPMN5Xnk/W2c1aW0jyEa6lfMDZWlQgiNtmHXytPc=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "dcc36e45d054d7bb554c9cdab69093debd91a0b5",
+        "rev": "006c75898cf814ef9497252b022e91c946ba8e17",
         "type": "github"
       },
       "original": {
@@ -164,11 +164,11 @@
     "ludwig-austermann-typst-timetable": {
       "flake": false,
       "locked": {
-        "lastModified": 1682527321,
-        "narHash": "sha256-Y8B0EzLH3Ap0b14040IKj9R6FEqkYbvOyljADxMydiE=",
+        "lastModified": 1683641409,
+        "narHash": "sha256-/PEws2HQyxNGKCfIYLEdS5rjXRX+JjaZzkAuReObxhU=",
         "owner": "ludwig-austermann",
         "repo": "typst-timetable",
-        "rev": "ef1e1ccf447b04d0a2084663c81b4818ab4d3dbe",
+        "rev": "c9ce1bc6572f2766152dca0845fb4c8a972e432f",
         "type": "github"
       },
       "original": {
@@ -177,13 +177,29 @@
         "type": "github"
       }
     },
+    "maxdinech-typst-recipe": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683815445,
+        "narHash": "sha256-xHoTF/9einYfspaNiSwo0tBIBrZluxcx82zEb6rIrLM=",
+        "owner": "maxdinech",
+        "repo": "typst-recipe",
+        "rev": "2e771512702e27cfa1bdc04d1bdffb563e9d047e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "maxdinech",
+        "repo": "typst-recipe",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1682109806,
-        "narHash": "sha256-d9g7RKNShMLboTWwukM+RObDWWpHKaqTYXB48clBWXI=",
+        "lastModified": 1683777345,
+        "narHash": "sha256-V2p/A4RpEGqEZussOnHYMU6XglxBJGCODdzoyvcwig8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2362848adf8def2866fabbffc50462e929d7fffb",
+        "rev": "635a306fc8ede2e34cb3dd0d6d0a5d49362150ed",
         "type": "github"
       },
       "original": {
@@ -196,11 +212,11 @@
     "nixpkgs-lib": {
       "locked": {
         "dir": "lib",
-        "lastModified": 1680213900,
-        "narHash": "sha256-cIDr5WZIj3EkKyCgj/6j3HBH4Jj1W296z7HTcWj1aMA=",
+        "lastModified": 1682879489,
+        "narHash": "sha256-sASwo8gBt7JDnOOstnps90K1wxmVfyhsTPPNTGBPjjg=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e3652e0735fbec227f342712f180f4f21f0594f2",
+        "rev": "da45bf6ec7bbcc5d1e14d3795c025199f28e0de0",
         "type": "github"
       },
       "original": {
@@ -272,6 +288,7 @@
         "kaarmu-typst-palettes": "kaarmu-typst-palettes",
         "ludwig-austermann-typst-din-5008-letter": "ludwig-austermann-typst-din-5008-letter",
         "ludwig-austermann-typst-timetable": "ludwig-austermann-typst-timetable",
+        "maxdinech-typst-recipe": "maxdinech-typst-recipe",
         "nixpkgs": "nixpkgs",
         "platformer-typst-algorithms": "platformer-typst-algorithms",
         "pncnmnp-typst-poster": "pncnmnp-typst-poster",
@@ -301,11 +318,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1682534245,
-        "narHash": "sha256-vvuhpraGpSxAoPCFz1z4zSPw3P5d+Ookfb1jwGTYep4=",
+        "lastModified": 1683819484,
+        "narHash": "sha256-qgoFa1a8KR44xNyymYB0hvGXSVKlljrhLmLjN27lOC0=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "5100046acf0fd31f805506f156c59c635c46cf93",
+        "rev": "e8de8a49c57671854f657a4eb1e2d86e5b12a281",
         "type": "github"
       },
       "original": {
