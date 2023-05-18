@@ -79,6 +79,16 @@
       url = "github:maxdinech/typst-recipe";
       flake = false;
     };
+
+    Dherse-typst-glossary = {
+      url = "github:Dherse/typst-glossary";
+      flake = false;
+    };
+
+    andreasKroepelin-typst-notebook = {
+      url = "github:andreasKroepelin/typst-notebook";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

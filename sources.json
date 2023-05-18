@@ -96,6 +96,19 @@
             "documents": [
                 "example"
             ]
+        },
+        {
+            "name": "Dherse-typst-glossary",
+            "documents": [
+                "example/example.typ"
+            ]
+        },
+        {
+            "name": "andreasKroepelin-typst-notebook",
+            "documents": [
+                "examples/simple.typ",
+                "examples/example-notes.typ"
+            ]
         }
     ]
 }
