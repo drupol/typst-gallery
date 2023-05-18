@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "Dherse-typst-glossary": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684321895,
+        "narHash": "sha256-xLpiUK+5MgLQEft1I1HRg1hOdJtRWwuGlo5ljV2FFq4=",
+        "owner": "Dherse",
+        "repo": "typst-glossary",
+        "rev": "6df57e56d5be979cc20415037977ea5567a38e2e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Dherse",
+        "repo": "typst-glossary",
+        "type": "github"
+      }
+    },
     "GeorgeHoneywood-alta-typst": {
       "flake": false,
       "locked": {
@@ -19,11 +35,11 @@
     "Leedehai-typst-physics": {
       "flake": false,
       "locked": {
-        "lastModified": 1683932366,
-        "narHash": "sha256-tU6v7FqKDirLuknShQ65soeZee86h9zVnrruoVCVRTM=",
+        "lastModified": 1684158286,
+        "narHash": "sha256-02aS9mc4KDRjvirXCATkhgB5HoZupnA4ug4JsEFvNAQ=",
         "owner": "Leedehai",
         "repo": "typst-physics",
-        "rev": "84921885926c95fff6d7146c00110d89c39aac5f",
+        "rev": "84b946dd8731e7a99c7b4f9acb3275720fdffb1c",
         "type": "github"
       },
       "original": {
@@ -45,6 +61,22 @@
       "original": {
         "owner": "PgBiel",
         "repo": "typst-tablex",
+        "type": "github"
+      }
+    },
+    "andreasKroepelin-typst-notebook": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684080940,
+        "narHash": "sha256-8hyEy0RIubopHjrZJpDQoiVFSKaPXsWZ2DZaPSFqF0A=",
+        "owner": "andreasKroepelin",
+        "repo": "typst-notebook",
+        "rev": "138db9f468afd002bbb6fbd95a47c5821a055364",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andreasKroepelin",
+        "repo": "typst-notebook",
         "type": "github"
       }
     },
@@ -195,11 +227,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1683968890,
-        "narHash": "sha256-FuNtjMvT07cJydY5NRyRhIni/dEwkSkijmFEdsmqdkA=",
+        "lastModified": 1684393889,
+        "narHash": "sha256-X4EP3TdpskELgOKGfm7UcLLGheqxYJZuNEEc0HkmrO0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ea11a3977f4cba013d8680667616be827c967ac0",
+        "rev": "9f7d9a55cc9960c029b006444e64e8dfa54a578e",
         "type": "github"
       },
       "original": {
@@ -277,9 +309,11 @@
     },
     "root": {
       "inputs": {
+        "Dherse-typst-glossary": "Dherse-typst-glossary",
         "GeorgeHoneywood-alta-typst": "GeorgeHoneywood-alta-typst",
         "Leedehai-typst-physics": "Leedehai-typst-physics",
         "PgBiel-typst-tablex": "PgBiel-typst-tablex",
+        "andreasKroepelin-typst-notebook": "andreasKroepelin-typst-notebook",
         "andreasKroepelin-typst-slides": "andreasKroepelin-typst-slides",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
@@ -318,11 +352,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1683887186,
-        "narHash": "sha256-3lMDqtNPeJpTQDyONGopV6Yug8WqzAbvILFjmvdW1n8=",
+        "lastModified": 1684139763,
+        "narHash": "sha256-5KWm0PxX260lpEF3zloKB4Gu7fHw6hcyA5C51qQwJAg=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "4b17c3f5c65a3ec87719d3c39d270767140e3767",
+        "rev": "1fa56a317c8d8da76546e6b5e19b279d84380837",
         "type": "github"
       },
       "original": {
