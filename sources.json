@@ -100,14 +100,14 @@
         {
             "name": "Dherse-typst-glossary",
             "documents": [
-                "example/example.typ"
+                "example/example"
             ]
         },
         {
             "name": "andreasKroepelin-typst-notebook",
             "documents": [
-                "examples/simple.typ",
-                "examples/example-notes.typ"
+                "examples/simple",
+                "examples/example-notes"
             ]
         }
     ]
