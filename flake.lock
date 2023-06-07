@@ -35,11 +35,11 @@
     "Leedehai-typst-physics": {
       "flake": false,
       "locked": {
-        "lastModified": 1684689870,
-        "narHash": "sha256-ul2pCXwwIWwWeeto2lwFPb66+ijAgS0eoUGx0E+ecdc=",
+        "lastModified": 1685284913,
+        "narHash": "sha256-NqmCKIzzRXgPOAvg4FWGpkdbWU7NFlwazIzTZbAXcH4=",
         "owner": "Leedehai",
         "repo": "typst-physics",
-        "rev": "93f17d0628e3ee483740aad6bcc011c8a5e72436",
+        "rev": "b2204999121c2ee1695f8280309db94ebc8d7741",
         "type": "github"
       },
       "original": {
@@ -117,11 +117,11 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1683560683,
-        "narHash": "sha256-XAygPMN5Xnk/W2c1aW0jyEa6lfMDZWlQgiNtmHXytPc=",
+        "lastModified": 1685662779,
+        "narHash": "sha256-cKDDciXGpMEjP1n6HlzKinN0H+oLmNpgeCTzYnsA2po=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "006c75898cf814ef9497252b022e91c946ba8e17",
+        "rev": "71fb97f0d875fd4de4994dfb849f2c75e17eb6c3",
         "type": "github"
       },
       "original": {
@@ -132,11 +132,11 @@
     "johannes-wolf-typst-plot": {
       "flake": false,
       "locked": {
-        "lastModified": 1681266143,
-        "narHash": "sha256-oOY8lzy3ElPf6VAf28eotq57vUh540A23m0RxD6/7PU=",
+        "lastModified": 1685200082,
+        "narHash": "sha256-FpMRsJ1zdQT8+tkzDhIY6J4uRWzsZ9xtg6Dk2OD80G8=",
         "owner": "johannes-wolf",
         "repo": "typst-plot",
-        "rev": "548125fb9b47085ab748dd1f9aedde0ddc092874",
+        "rev": "c950cc40218bd08674a6567a5497f07ec6c4f097",
         "type": "github"
       },
       "original": {
@@ -180,11 +180,11 @@
     "ludwig-austermann-typst-din-5008-letter": {
       "flake": false,
       "locked": {
-        "lastModified": 1680740218,
-        "narHash": "sha256-uR6tPYdvHQjnFb7fOeAhrElcTejFZdXRHnKXlvvp5P8=",
+        "lastModified": 1685703441,
+        "narHash": "sha256-asap66lS4RRCec+kuKgQu+oHwMpGzCocs/5qySe/YHs=",
         "owner": "ludwig-austermann",
         "repo": "typst-din-5008-letter",
-        "rev": "f9bb8e987c0553e1c6ad95d8a07c22480f8dd6a0",
+        "rev": "92cd323094c6516cc08a151be418128dc08f8b12",
         "type": "github"
       },
       "original": {
@@ -227,11 +227,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1684973047,
-        "narHash": "sha256-ZLnSr35L6C49pCZS9fZCCqkIKNAeQzykov2QfosNG9w=",
+        "lastModified": 1686025136,
+        "narHash": "sha256-yd/Lr6RjjeyF7PpA+TpFT4E5LZeDyiMLVJUXIWxB4Rs=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "21eb6c6ba74dcbe3ea5926ee46287300fb066630",
+        "rev": "22467e240f390f029d6c745ce031f0ffbdc40916",
         "type": "github"
       },
       "original": {
@@ -244,11 +244,11 @@
     "nixpkgs-lib": {
       "locked": {
         "dir": "lib",
-        "lastModified": 1682879489,
-        "narHash": "sha256-sASwo8gBt7JDnOOstnps90K1wxmVfyhsTPPNTGBPjjg=",
+        "lastModified": 1685564631,
+        "narHash": "sha256-8ywr3AkblY4++3lIVxmrWZFzac7+f32ZEhH/A8pNscI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "da45bf6ec7bbcc5d1e14d3795c025199f28e0de0",
+        "rev": "4f53efe34b3a8877ac923b9350c874e3dcd5dc0a",
         "type": "github"
       },
       "original": {
@@ -352,11 +352,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1684958630,
-        "narHash": "sha256-6ba7RRlIGNtRWSTf54rbiK5KIgKsTxqDAH7kPcZ1/DI=",
+        "lastModified": 1686083853,
+        "narHash": "sha256-b5DheqkwGPc/WSKYeZ653kmjD//U0rs3K5cYQjePTBk=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "3eb1f31e904151f5bee6300ef8d9dba0bbcce4c5",
+        "rev": "e57f143858dbdc4f90784d422e81ca1cc12871d0",
         "type": "github"
       },
       "original": {
