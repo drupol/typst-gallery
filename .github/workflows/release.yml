@@ -1,6 +1,5 @@
 name: Build
 
-
 on:
   push:
     branches:
@@ -35,13 +34,10 @@ jobs:
         - name: Install Nix
           uses: DeterminateSystems/nix-installer-action@main
 
-        - name: Run the Magic Nix Cache
-          uses: DeterminateSystems/magic-nix-cache-action@main
-
         - id: set-matrix
           run: |
             echo "matrix=$(
-              nix eval --json --impure --expr 'builtins.attrNames (import ./.).packages.x86_64-linux'
+              nix eval --json --impure --expr 'builtins.filter (name: name != "typst") (builtins.attrNames (import ./.).packages.x86_64-linux)'
             )" >> $GITHUB_OUTPUT
 
     build-typst-dev:
@@ -49,15 +45,18 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
+        - name: Set up Git repository
+          uses: actions/checkout@v3
+
         - name: Install Nix
           uses: DeterminateSystems/nix-installer-action@main
 
         - name: Run the Magic Nix Cache
           uses: DeterminateSystems/magic-nix-cache-action@main
 
-        - name: Build typst bleeding edge
+        - name: Build typst
           run: |
-            nix build github:typst/typst
+            nix build .#typst
 
     build:
         name: Build PDF document
