@@ -30,13 +30,11 @@ jobs:
         - name: Set up Git repository
           uses: actions/checkout@v3
 
-        - name: Install the Nix package manager
-          uses: cachix/install-nix-action@v20
+        - name: Install Nix
+          uses: DeterminateSystems/nix-installer-action@main
 
-        - uses: cachix/cachix-action@v12
-          with:
-            name: typst-document
-            authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+        - name: Run the Magic Nix Cache
+          uses: DeterminateSystems/magic-nix-cache-action@main
 
         - name: Build typst bleeding edge
           run: |
@@ -54,12 +52,10 @@ jobs:
 
       steps:
         - name: Install Nix
-          uses: cachix/install-nix-action@v20
+          uses: DeterminateSystems/nix-installer-action@main
 
-        - uses: cachix/cachix-action@v12
-          with:
-            name: typst-document
-            authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+        - name: Run the Magic Nix Cache
+          uses: DeterminateSystems/magic-nix-cache-action@main
 
         - name: Build typst bleeding edge
           run: |
@@ -84,12 +80,10 @@ jobs:
               uses: actions/checkout@v3
 
             - name: Install Nix
-              uses: cachix/install-nix-action@v20
+              uses: DeterminateSystems/nix-installer-action@main
 
-            - uses: cachix/cachix-action@v12
-              with:
-                name: typst-document
-                authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+            - name: Run the Magic Nix Cache
+              uses: DeterminateSystems/magic-nix-cache-action@main
 
             - name: Build ${{ matrix.packages }}
               run: |
