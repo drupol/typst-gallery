@@ -1,4 +1,4 @@
-# Typst document
+# Typst document gallery
 
 This project will build the default [Typst][typst] templates from https://github.com/typst/templates using [Nix][nix].
 
@@ -6,7 +6,7 @@ This project will build the default [Typst][typst] templates from https://github
 
 ### To list all the available documents
 
-```
+```shell
 nix flake show
 ```
 
