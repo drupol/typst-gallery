@@ -53,9 +53,9 @@ jobs:
         - name: Run the Magic Nix Cache
           uses: DeterminateSystems/magic-nix-cache-action@main
 
-        - name: Build typst bleeding edge
+        - name: Build typst
           run: |
-            nix build github:typst/typst
+            nix build .#typst
 
     build:
         name: Build PDF document

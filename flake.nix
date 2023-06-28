@@ -167,7 +167,7 @@
       in {
         formatter = pkgs.alejandra;
 
-        packages = typst-documents;
+        packages = typst-documents // { typst = pkgs.typst-dev; };
       };
     };
 }
