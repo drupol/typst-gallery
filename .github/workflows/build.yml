@@ -33,9 +33,6 @@ jobs:
         - name: Install Nix
           uses: DeterminateSystems/nix-installer-action@main
 
-        - name: Run the Magic Nix Cache
-          uses: DeterminateSystems/magic-nix-cache-action@main
-
         - id: set-matrix
           run: |
             echo "matrix=$(
@@ -47,6 +44,9 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
+        - name: Set up Git repository
+          uses: actions/checkout@v3
+
         - name: Install Nix
           uses: DeterminateSystems/nix-installer-action@main
 
