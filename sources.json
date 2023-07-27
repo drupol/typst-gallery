@@ -25,13 +25,15 @@
             ]
         },
         {
-            "name": "andreasKroepelin-typst-slides",
+            "name": "andreasKroepelin-polylux",
             "documents": [
                 "examples/demo",
                 "examples/gauss",
-                "examples/simple",
-                "book/src/theme-gallery/default",
-                "book/src/theme-gallery/bipartite"
+                "book/src/theme/gallery/bipartite",
+                "book/src/theme/gallery/clean",
+                "book/src/theme/gallery/metropolis",
+                "book/src/theme/gallery/simple",
+                "book/src/theme/gallery/university"
             ]
         },
         {
@@ -50,7 +52,9 @@
             "name": "johannes-wolf-typst-plot",
             "documents": [
                 "examples/multi",
-                "examples/simple"
+                "examples/parametric",
+                "examples/simple",
+                "examples/tic-label"
             ]
         },
         {

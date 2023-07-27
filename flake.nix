@@ -26,7 +26,7 @@
     };
 
     andreasKroepelin-typst-slides = {
-      url = "github:andreasKroepelin/typst-slides";
+      url = "github:andreasKroepelin/polylux";
       flake = false;
     };
 
