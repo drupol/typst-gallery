@@ -153,8 +153,8 @@
                 runHook preBuild
 
                 typst \
-                  --root $src/ \
                   compile \
+                  --root $src/ \
                   $src/${source.filename}.typ \
                   ${source.name}-${outputFilename}.pdf
 
