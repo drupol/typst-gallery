@@ -64,6 +64,22 @@
         "type": "github"
       }
     },
+    "andreasKroepelin-polylux": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690461002,
+        "narHash": "sha256-NX/CJc26L3aBUGoVCGDX231z4vtNmdxUu9hGYxSwRX8=",
+        "owner": "andreasKroepelin",
+        "repo": "polylux",
+        "rev": "4abc5b2bc7a71769188d4be07a13dd61504cbdbf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andreasKroepelin",
+        "repo": "polylux",
+        "type": "github"
+      }
+    },
     "andreasKroepelin-typst-notebook": {
       "flake": false,
       "locked": {
@@ -77,22 +93,6 @@
       "original": {
         "owner": "andreasKroepelin",
         "repo": "typst-notebook",
-        "type": "github"
-      }
-    },
-    "andreasKroepelin-typst-slides": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1690411086,
-        "narHash": "sha256-qGRzUiFvm5Es2x68emr49D3SSXfJCCD46zuW3o/MJm0=",
-        "owner": "andreasKroepelin",
-        "repo": "polylux",
-        "rev": "c683ec9c237ed4b96e194d8bf48eeaa55de49d6e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "andreasKroepelin",
-        "repo": "polylux",
         "type": "github"
       }
     },
@@ -351,8 +351,8 @@
         "GeorgeHoneywood-alta-typst": "GeorgeHoneywood-alta-typst",
         "Leedehai-typst-physics": "Leedehai-typst-physics",
         "PgBiel-typst-tablex": "PgBiel-typst-tablex",
+        "andreasKroepelin-polylux": "andreasKroepelin-polylux",
         "andreasKroepelin-typst-notebook": "andreasKroepelin-typst-notebook",
-        "andreasKroepelin-typst-slides": "andreasKroepelin-typst-slides",
         "flake-compat": "flake-compat",
         "flake-parts": "flake-parts",
         "johannes-wolf-typst-plot": "johannes-wolf-typst-plot",
