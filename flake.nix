@@ -89,6 +89,11 @@
       url = "github:andreasKroepelin/typst-notebook";
       flake = false;
     };
+
+    lf--typst-algorithmic = {
+      url = "github:lf-/typst-algorithmic";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -148,8 +153,8 @@
                 runHook preBuild
 
                 typst \
-                  --root $src/ \
                   compile \
+                  --root $src/ \
                   $src/${source.filename}.typ \
                   ${source.name}-${outputFilename}.pdf
 

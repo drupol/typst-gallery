@@ -109,6 +109,12 @@
                 "examples/simple",
                 "examples/example-notes"
             ]
+        },
+        {
+            "name": "lf--typst-algorithmic",
+            "documents": [
+                "algorithmic-demo"
+            ]
         }
     ]
 }

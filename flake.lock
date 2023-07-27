@@ -19,11 +19,11 @@
     "GeorgeHoneywood-alta-typst": {
       "flake": false,
       "locked": {
-        "lastModified": 1682014202,
-        "narHash": "sha256-nyGxNTrBSUo9UwHtCcogg1NVEE/3apJiZEewRJWiJbU=",
+        "lastModified": 1690293726,
+        "narHash": "sha256-B0E7MjfJkIOM+NKXwMomqg/mRiC1s3rbsjGqKefBEsk=",
         "owner": "GeorgeHoneywood",
         "repo": "alta-typst",
-        "rev": "5e4853e445bbccaa47d8c3dc0cf8d1fec3903919",
+        "rev": "f8708bcbe8a3467ab461095afdcf89a1609dd777",
         "type": "github"
       },
       "original": {
@@ -51,11 +51,11 @@
     "PgBiel-typst-tablex": {
       "flake": false,
       "locked": {
-        "lastModified": 1687109413,
-        "narHash": "sha256-WcB+Mn4O8guhOnFT1btNNIL29pos8XQopP1rpVhl/kQ=",
+        "lastModified": 1688756683,
+        "narHash": "sha256-7pJ2S478kEqsrYaMOV7CH/F0lp7x/RqBcvZmKd03NaI=",
         "owner": "PgBiel",
         "repo": "typst-tablex",
-        "rev": "5f1827f647cc458ee8a749ea40fe6cd76c4d0a40",
+        "rev": "2f80d86d1123dd8cbdc8c8aef53bb461ddbc9aca",
         "type": "github"
       },
       "original": {
@@ -83,11 +83,11 @@
     "andreasKroepelin-typst-slides": {
       "flake": false,
       "locked": {
-        "lastModified": 1684508167,
-        "narHash": "sha256-870n7jpNH5w9KoCJaj0QWUWANR8mBpuGlNx6fc1Ixuw=",
+        "lastModified": 1690411086,
+        "narHash": "sha256-qGRzUiFvm5Es2x68emr49D3SSXfJCCD46zuW3o/MJm0=",
         "owner": "andreasKroepelin",
         "repo": "typst-slides",
-        "rev": "8021edacb3b8023fdd8c47f20916761a19c5b779",
+        "rev": "c683ec9c237ed4b96e194d8bf48eeaa55de49d6e",
         "type": "github"
       },
       "original": {
@@ -139,11 +139,11 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1685662779,
-        "narHash": "sha256-cKDDciXGpMEjP1n6HlzKinN0H+oLmNpgeCTzYnsA2po=",
+        "lastModified": 1688466019,
+        "narHash": "sha256-VeM2akYrBYMsb4W/MmBo1zmaMfgbL4cH3Pu8PGyIwJ0=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "71fb97f0d875fd4de4994dfb849f2c75e17eb6c3",
+        "rev": "8e8d955c22df93dbe24f19ea04f47a74adbdc5ec",
         "type": "github"
       },
       "original": {
@@ -154,11 +154,11 @@
     "johannes-wolf-typst-plot": {
       "flake": false,
       "locked": {
-        "lastModified": 1686403973,
-        "narHash": "sha256-+90XMWuqhXEJnJeIVur8qBJyUo0UCAtrID98p5untOM=",
+        "lastModified": 1690427845,
+        "narHash": "sha256-TuPjOnC0BeWAqX9/JaH94gt4AuWspSkJh3yjCTppsI0=",
         "owner": "johannes-wolf",
         "repo": "typst-plot",
-        "rev": "ed52d14b47c98f997c6bb220efb8e99059a66137",
+        "rev": "62a0b79f19517bb4c97b2b7f29a02a1daf164964",
         "type": "github"
       },
       "original": {
@@ -170,11 +170,11 @@
     "johanvx-typst-undergradmath": {
       "flake": false,
       "locked": {
-        "lastModified": 1686840451,
-        "narHash": "sha256-f/sz071ptUW3T4X25OD5woIy/DBMPPQoJtYYBwi1R8w=",
+        "lastModified": 1689829238,
+        "narHash": "sha256-sE8UD+hRHDLIeQSF57IoP+VVzcROoffcXi/oyhrseFU=",
         "owner": "johanvx",
         "repo": "typst-undergradmath",
-        "rev": "7832fd3a35d2d4f88a974eb441235ba71d3aa62e",
+        "rev": "57e3564c7799a031933e5031c3e2b7271091bbd8",
         "type": "github"
       },
       "original": {
@@ -186,11 +186,11 @@
     "kaarmu-typst-palettes": {
       "flake": false,
       "locked": {
-        "lastModified": 1686931719,
-        "narHash": "sha256-dfjhk68Vfly778hth4VqUZ/p66F665X+a9bxCnM83JU=",
+        "lastModified": 1688293584,
+        "narHash": "sha256-NdZT32J7+oISqrzAs8uWdAumvMzSijGn2M6Mjno3eIA=",
         "owner": "kaarmu",
         "repo": "typst-palettes",
-        "rev": "87c91a303fe48e6a929a0c12fc90474349006f96",
+        "rev": "e51095358a1f37449a8a59a05088928d76a31960",
         "type": "github"
       },
       "original": {
@@ -199,14 +199,30 @@
         "type": "github"
       }
     },
+    "lf--typst-algorithmic": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690437878,
+        "narHash": "sha256-egF13NaPuUmXxVvDT4uhd998EbiNt4EGxYlC5EL4F8k=",
+        "owner": "lf-",
+        "repo": "typst-algorithmic",
+        "rev": "d211e5eaf25fa2106693b5bb12dbbc267dc1b921",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lf-",
+        "repo": "typst-algorithmic",
+        "type": "github"
+      }
+    },
     "ludwig-austermann-typst-din-5008-letter": {
       "flake": false,
       "locked": {
-        "lastModified": 1685703441,
-        "narHash": "sha256-asap66lS4RRCec+kuKgQu+oHwMpGzCocs/5qySe/YHs=",
+        "lastModified": 1689378492,
+        "narHash": "sha256-LcUSN1M/kA3Qx5Ox+OKwp/CDXh8P9gVNFSRcOy7uB2Q=",
         "owner": "ludwig-austermann",
         "repo": "typst-din-5008-letter",
-        "rev": "92cd323094c6516cc08a151be418128dc08f8b12",
+        "rev": "8b1c84c7132c5aff52d79fa721880e1e566a5592",
         "type": "github"
       },
       "original": {
@@ -249,11 +265,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1687274257,
-        "narHash": "sha256-TutzPriQcZ8FghDhEolnHcYU2oHIG5XWF+/SUBNnAOE=",
+        "lastModified": 1690327932,
+        "narHash": "sha256-Fv7PYZxN4eo0K6zXhHG/vOc+e2iuqQ5ywDrh0yeRjP0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2c9ecd1f0400076a4d6b2193ad468ff0a7e7fdc5",
+        "rev": "a9b47d85504bdd199e90846622c76aa0bfeabfac",
         "type": "github"
       },
       "original": {
@@ -266,11 +282,11 @@
     "nixpkgs-lib": {
       "locked": {
         "dir": "lib",
-        "lastModified": 1685564631,
-        "narHash": "sha256-8ywr3AkblY4++3lIVxmrWZFzac7+f32ZEhH/A8pNscI=",
+        "lastModified": 1688049487,
+        "narHash": "sha256-100g4iaKC9MalDjUW9iN6Jl/OocTDtXdeAj7pEGIRh4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4f53efe34b3a8877ac923b9350c874e3dcd5dc0a",
+        "rev": "4bc72cae107788bf3f24f30db2e2f685c9298dc9",
         "type": "github"
       },
       "original": {
@@ -300,11 +316,11 @@
     "platformer-typst-algorithms": {
       "flake": false,
       "locked": {
-        "lastModified": 1681246571,
-        "narHash": "sha256-niz6xC5w8XN15hqd8nyoTZfA8ooo7W8Kh1MAtF8GJlw=",
+        "lastModified": 1688455965,
+        "narHash": "sha256-+DIfSGISi+wJXuEGgHyn3E/RHCIm32ej4gRRDDz8t6U=",
         "owner": "platformer",
         "repo": "typst-algorithms",
-        "rev": "a9f9bbaf486b61fe4ef852c37709a9e7056401f7",
+        "rev": "fe2060d12384c59d30089c72529d32eac2e0a73a",
         "type": "github"
       },
       "original": {
@@ -342,6 +358,7 @@
         "johannes-wolf-typst-plot": "johannes-wolf-typst-plot",
         "johanvx-typst-undergradmath": "johanvx-typst-undergradmath",
         "kaarmu-typst-palettes": "kaarmu-typst-palettes",
+        "lf--typst-algorithmic": "lf--typst-algorithmic",
         "ludwig-austermann-typst-din-5008-letter": "ludwig-austermann-typst-din-5008-letter",
         "ludwig-austermann-typst-timetable": "ludwig-austermann-typst-timetable",
         "maxdinech-typst-recipe": "maxdinech-typst-recipe",
@@ -392,11 +409,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1687277480,
-        "narHash": "sha256-Ihh5DbeuUoIxAbFfydjfaD27BlXC00MP9xsewa6RIe0=",
+        "lastModified": 1690405413,
+        "narHash": "sha256-i3OycL8a1saOmqTZWKv14h7kzF9TWftHWjdYlSEtEwA=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "c0c03812d08bc833b8a2477c594d762f43a0c95b",
+        "rev": "5bd97e218b698b2ad14fad0470b3b800469ee748",
         "type": "github"
       },
       "original": {
@@ -408,11 +425,11 @@
     "typst-templates": {
       "flake": false,
       "locked": {
-        "lastModified": 1682517565,
-        "narHash": "sha256-ClvB5mny1SJQX04w6M8h+Gg2A77BiCKVavSAjup4RgY=",
+        "lastModified": 1689848170,
+        "narHash": "sha256-GcycM1VP4WpEWVl1huQ8f/rY5llwi/yPNKw1xw8SQGM=",
         "owner": "typst",
         "repo": "templates",
-        "rev": "7cec678fb6a6782361c79f3ac87c41a8a2b4a0a2",
+        "rev": "0631013f5fedbd5b37675cc44bb6beeadc5b3f20",
         "type": "github"
       },
       "original": {
